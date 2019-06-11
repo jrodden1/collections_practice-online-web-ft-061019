@@ -50,3 +50,8 @@ def find_a(array)
     element[0] == "a" || element[0] == "A"
   end
 end
+
+def sum_array(array)
+  array.sum
+  
+end
