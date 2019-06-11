@@ -44,3 +44,10 @@ def kesha_maker(array)
     updated_element = element_array.join
   end
 end
+
+def find_a(array)
+  array.select do |element|
+    element[0] == "a" || element[0] == "A"
+  end
+
+end
