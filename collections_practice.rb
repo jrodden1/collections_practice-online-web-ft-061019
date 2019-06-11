@@ -49,5 +49,4 @@ def find_a(array)
   array.select do |element|
     element[0] == "a" || element[0] == "A"
   end
-
 end
