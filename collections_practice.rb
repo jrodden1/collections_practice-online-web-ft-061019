@@ -39,7 +39,8 @@ end
 
 def kesha_maker(array)
   array.map do |element|
-    element[2] = "$"
+    element_array = element.split("")
+    element_array[2] = "#$"
+    updated_element = element_array.join
   end
-
 end
