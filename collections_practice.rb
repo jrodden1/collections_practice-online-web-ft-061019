@@ -61,5 +61,6 @@ def add_s(array)
       updated_element = element + "s"
     else
       updated_element = element
+    end
   end
 end
