@@ -54,3 +54,9 @@ end
 def sum_array(array)
   array.sum
 end
+
+def add_s(array)
+  array.map.with_index do |element, index|
+    updated_element = element + "s" unless index == 1 
+  end  
+end
